@@ -41,8 +41,10 @@
             fields[i].value = CompanyProfile.ID;
         if(titles[i].innerText.valueOf() == "Company ID".valueOf() || titles[i].innerText.valueOf() == "Company ID *".valueOf())
             fields[i].value = CompanyProfile.ID;
-        if(titles[i].innerText.valueOf() == "Enter employee name".valueOf() || titles[i].innerText.valueOf() == "Enter employee name *".valueOf())
+        if(titles[i].innerText.valueOf() == "Enter employee name".valueOf() || titles[i].innerText.valueOf() == "Enter employee name *".valueOf()){
             fields[i].value = CompanyProfile.Name;
+            document.forms[0].submit();
+        }
     }
 
     var toggle = document.getElementsByClassName("docssharedWizToggleLabeledContainer freebirdFormviewerViewItemsRadioChoice");
@@ -60,8 +62,8 @@
         document.forms[0].submit();
     }
 
-    
+
     //document.getElementsByClassName("quantumWizButtonPaperbuttonFocusOverlay exportOverlay")[2].click();
-    
+
     //document.forms[0].submit();
 })();
