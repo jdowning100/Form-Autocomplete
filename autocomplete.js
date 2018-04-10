@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         New Userscript
-// @namespace    http://tampermonkey.net/
+// @namespace    http://www.github.com/jdowning100/Form-Autocomplete
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  Prototype form autocompletion
+// @author       jdowning100
 // @match        http://*/*
 // @include      https://docs.google.com/forms/d/e/1FAIpQLSfhD_3BW8yPDQbBnpazhr99EQRfjpypQeb6VTOqPQAGXNDlVQ/*
 // @grant        none
