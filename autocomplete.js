@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Autocomplete
 // @namespace    http://www.github.com/jdowning100/Form-Autocomplete
 // @version      0.1
 // @description  Prototype form autocompletion
