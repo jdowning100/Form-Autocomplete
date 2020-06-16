@@ -18,10 +18,10 @@
     var CompanyProfile = {
         Name : "Jonathan",
         Company : "Jonathan's Wood Works",
-        Email : "jdowning@utexas.edu",
-        Address : "2800 Rio Grande St, Austin TX 78705",
-        Phone : "2817369191",
-        ID : "12345",
+        Email : "jdowning@gmail.cpm",
+        Address : "2800 Rio Grande Place, Austin TX 78705",
+        Phone : "5126521536",
+        ID : "123456789",
         Emails : false
     };
     var fields = document.getElementsByClassName("quantumWizTextinputPaperinputInput exportInput");
